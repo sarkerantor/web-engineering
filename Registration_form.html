@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="second.js"></script>
+</head>
+<body>
+    <h1>Event Registration Form</h1>
+    <div class="first-form">
+        <h2>About This Event</h2>
+        <table style="width: 100%;">
+            <tr>
+                <td class="fdata">Event Name</td>
+                <td class="sdata">Digital Marketing Masterclass</td>
+            </tr>
+            <tr>
+                <td class="fdata">Date</td>
+                <td class="sdata" >September 11,2025</td>
+            </tr>
+            <tr>
+                <td class="fdata">Time</td>
+                <td class="sdata">2:00 PM - 4:30 PM</td>
+            </tr>
+            <tr>
+                <td class="fdata">Speaker</td>
+                <td class="sdata">Sarah Johnson</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <hr>
+    <div class="information">
+        <h2>Participant Information</h2>
+        <form action="" class="formation">
+            <div class="form1">
+                <label for="fname">Full Name</label><br>
+                <input type="text" placeholder="Enter full name" class="fulname">
+            </div>
+            <div class="form2">
+                <label for="birth">Date of Birth</label><br>
+                <input type="date" class="dob">
+            </div>
+            
+        </form>
+        <div class="personal">
+            <div class="p1">
+                <label for="gender" class="gen">Gender</label><br>
+                <input type="radio" name="gender" id="male" value="male" style="margin-top: 10px;">
+                <label for="male">Male</label><br>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="p2">
+                <label for="phone" class="gen">Phone Number</label><br>
+                <input type="text" placeholder="Contact Info" class="pn">
+            </div>
+            <div class="p3">
+                <label for="email" class="gen">Email</label><br>
+                <input type="email" placeholder="Enter email" class="pn">
+            </div>
+        </div>
+        <div class="social">
+            <h4>Where did you hear about this virtual event?</h4>
+            <div class="social1">
+            <input type="radio" name="media" id="facebook" value="facebook">
+            <label for="facebook">Facebook</label>
+            <input type="radio" name="media" id="youtube" value="youtube" class="soc1">
+            <label for="youtube">You Tube</label>
+            <input type="radio" name="media" id="instagram" value="instagram" class="soc1">
+            <label for="instagram">Instagram</label>
+            <input type="radio" name="media" id="twitter" value="twitter" class="soc1">
+            <label for="twitter">Twitter</label>
+            <input type="radio" name="media" id="other" value="other" class="soc1">
+            <label for="other">Other : </label>
+            <input type="text" class="soc2">
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="payment">
+        <h2>Payment Information</h2>
+        <div class="pay">
+            <div class="pay-first">
+            <label for="">Number of Tickets</label><br>
+            <input type="text" class="pf1">
+        </div>
+        <div class="pay-second">
+            <label for="">Payment Method</label><br>
+            <input type="radio" name="paym" class="ps2">
+            <label for="">Credit Card</label>
+            <input type="radio" name="paym" class="ps1">
+            <label for="">Debit Card</label>
+            <input type="radio" name="paym" class="ps1">
+            <label for="">Cash</label>
+            <input type="radio" name="paym" class="ps1">
+            <label for="">Check</label>
+        </div>
+        </div>
+    </div>
+    <div class="sign">
+        <div class="sign1">
+<p>I underestand that participation in this event may involve some degree of risk. 
+I release webinarProsLLC from any liability for injury.loss , or damage to personal property.</p>
+        </div>
+        <div class="sign2">
+            <label for="" class="sign21">Signature : </label>
+            <input type="text" class="sign22">
+        </div>
+    </div>
+    <div class="dsign">
+        <div class="dsign1">
+            <input type="radio" class="dsign11">
+            <label for="" class="dsign12">Yes,I understand</label>
+        </div>
+        <div class="dsign2">
+            <label for="" class="dsign21">Date Signed : </label>
+            <input type="date" class="dsign22">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <footer>
+        <div class="foot1">
+            <img src="webinar.png" class="im2">
+        </div>
+        <div class="foot2">
+            <i id="im1" class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="foot3">
+            <p>Thank You for registering! For inquiries and updates,follow us at 
+                @webinarprosLLC on our social media accounts.</p>
+        </div>
+    </footer>
+</body>
+</html>
