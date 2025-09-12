@@ -1,0 +1,189 @@
+h1{
+    text-align: center;
+}
+h1,h2{
+    color: rgb(4, 4, 136);
+}
+body{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table,td{
+    border: 1px solid rgb(21, 4, 1);
+    border-collapse: collapse;
+}
+ tr{
+    height: 30px;
+ }
+ .fdata{
+    font-weight: bold;
+    padding-left: 20px;
+ }
+ .sdata{
+    padding-left: 20px;
+ }
+ .formation{
+    display: flex;
+    width: 100%;
+ }
+ .fulname{
+    margin-top: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 27px;
+ }
+ .form1{
+    width: 70%;
+    font-size: large;
+ }
+  .fulname{
+    margin-top: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 27px;
+    font-size: 1rem;
+ }
+.form2{
+    width: 30%;
+    font-size: large;
+ }
+ .dob{
+    margin-top: 5px;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 27px;
+    font-size: 1rem;
+ }
+ .personal{
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+    height: 70px;
+ }
+ .p1{
+    width: 33.4%;
+ }
+  .p2{
+    width: 33.3%;
+ }
+  .p3{
+    width: 33.3%;
+ }
+ .gen{
+    font-size: large;
+ }
+ .pn{
+    margin-top: 10px;
+    width: 90%;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+ }
+ .soc1{
+    margin-left: 120px;
+ }
+ .soc2{
+    height: 20px;
+    border-radius: 7px;
+ }
+ .pay{
+    display: flex;
+ }
+ .pay-first{
+    width: 40%;
+ }
+ .pay-second{
+    width: 60%;
+ }
+ .pf1{
+    margin-top: 8px;
+    height: 36px;
+    border-radius: 8px;
+    width: 90%;
+ }
+ .ps1{
+    margin-left: 80px;
+    margin-top: 13px;
+ }
+ .ps2{
+    margin-left: 0%;
+    margin-top: 13px;
+ }
+ .sign{
+    display: flex;
+    width: 100%;
+ }
+ .sign1{
+    width: 35%;
+ }
+ .sign2{
+    margin-top: 30px;
+    width: 65%;
+ }
+ .sign21{
+    font-size: 25px;
+    margin-left: 240px;
+ }
+.sign22{
+    width: 40%;
+    height: 25px;
+    border-radius: 8px;
+}
+.dsign{
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.dsign1{
+    width: 50%;
+}
+.dsign2{
+    width: 50%;
+}
+.dsign21{
+    margin-top: 6px;
+    font-size: 20px;
+    padding-left: 36px;
+}
+.dsign22{
+    height: 26px;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 17px;
+}
+.dsign12{
+    font-size: 20px;
+    margin-top: 14px;
+}
+footer{
+    display: flex;
+    height: 100px;
+}
+.foot1{
+    width: 33.3%;
+    height: 40px;
+}
+.foot2{
+    width: 33.3%;
+    height: 40px;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 170px;
+}
+.foot3{
+    width: 33.4%;
+    height: 40px;
+}
+.im2{
+   height: 110px;
+}
