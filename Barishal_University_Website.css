@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Nav start*/
+.nav-bar{
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.nav-first{
+    display: flex;
+    height: 60px;
+    background-color: rgb(18, 8, 164);
+    font-size: 15px;
+    color: white;
+}
+.bobi{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.cse{
+    height: 40px;
+    width: 40px;
+}
+.nav-left{
+    width: 49%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-right{
+    width: 49%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.nav-sec{
+    background-color: white;
+    color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    
+}
+.nav-seca{
+    text-decoration: none;
+    color: black;
+}
+.m3{
+    margin-left: 13px;
+    border: 3px solid white;
+}
+.m3:hover a{
+    background-color: rgb(22, 22, 173);
+    color: white;
+    padding: 5px;
+}
+/*Nav end*/
+/* main start */
+.cover-image{
+    background-image: url("images/bu_campus.png");
+    background-size: cover;
+    height: 480px;
+}
+.hod{
+    margin-top: 30px;
+    height: 380px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hod-wlc{
+    opacity: 0.5;
+    z-index: 1;
+}
+.hod-msg{
+    color: rgb(15, 15, 139);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.hod-full{
+    border-top: 2px solid blue;
+    display: flex;
+}
+.hod-left{
+    width: 25%;
+}
+.hod-right{
+    margin-top: 24px;
+    width: 75%;
+}
+.readmore{
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(9, 9, 115);
+    border-radius: 20px;
+    padding: 10px;
+    width: 136px;
+    display: flex;
+}
+.about-dept{
+    padding-top: 30px;
+    height: 260px;
+    background-color: rgb(244, 244, 249);
+}
+.dept-content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.dept-text{
+    border-top: 2px solid blue;
+    padding-top: 20px;
+}
+.department{
+    padding-bottom: 10px;
+    color: rgb(24, 24, 135);
+}
+.academic-program{
+    margin-top: 28px;
+    height: 560px;
+}
+.mscinsoftware{
+    background-image: url("images/msc-software.jpg");
+    height: 320px;
+    background-size: cover;
+    width: 33%;
+}
+.ac-content{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(15, 15, 119);
+}
+.mscincse{
+    background-image: url("images/msc-preparation.png");
+    height: 320px;
+    background-size: cover;
+    width: 33%
+}
+.mscinsoftware:hover{
+    transition: 3s;
+    width: 36%
+}
+.mscincse:hover{
+    transition: 3s;
+    width: 36%
+}
+.allpic{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.allpic2{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    box-shadow: 5px 10px 18px rgb(242, 239, 239);
+}
+.ac1,.ac2,.ac3{
+    width: 33%;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(9, 61, 97);
+}
+.rd1,.rd2,.rd3{
+    width:160px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.notice-board{
+    height: 800px;
+    margin-top: 20px;
+    background-color: azure;
+}
+.notice{
+    color: rgb(20, 20, 129);
+    text-align: center;
+    padding-top: 60px;
+}
+.all{
+    margin-left: 738px;
+    display: inline-block;
+    border-radius: 35%;
+    margin-top: 20px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 0px 8px 10px #7b85db
+}
+.blank{
+    background-image: url("images/blankpage.png");
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-size: cover;
+    height: 400px;
+}
+.alvisit{
+    margin-top: 20px;
+    background-color: rgb(20, 25, 169);
+    margin-left: 46%;
+    margin-right: 46%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.alvisit a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.latest{
+    color: rgb(9, 9, 142);
+    margin-top: 40px;
+    text-align: center;
+}
+.abett{
+    height: 400px;
+    margin-left: 10%;
+    margin-right: 60%;
+    background-color: azure;
+}
+.abt1{
+    width: 457px;
+    height: 200px;
+    
+}
+.cse-abt{
+    color: rgba(12, 12, 162, 0.966);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p-abt{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.date{
+    display: flex;
+}
+.date2{
+    margin-left: 190px;
+    margin-bottom: 120px;
+}
+/* main end */
+/* footer start*/
+.foot{
+    height: 280px;
+    background-color: rgb(5, 9, 43);
+    color: white;
+    display: flex;
+    padding-top: 32px;
+}
+.bari{
+    margin-left: 10%;
+    width: 20%;
+}
+.aca{
+    width: 20%;
+}
+.admi{
+    width: 20%;
+}
+.impor{
+    width: 20%;
+    margin-right: 10%;
+}
+.blur{
+    line-height: 32px;
+    text-decoration: none;
+    color: rgb(181, 176, 204);
+}
+.foot-head{
+    padding-bottom: 20px;
+}
+.face{
+    margin-top: 15px;
+    font-size: 27px;
+}
+.foot-end{
+    height: 46px;
+    color: white;
+    display: flex;
+    background-color: rgb(29, 27, 65);
+}
+.fe1{
+    padding-top: 15px;
+    margin-left: 40%;
+}
+.fe2{
+    margin-left: 35%;
+    padding-top: 10px;
+    font-size: 24px;
+}
