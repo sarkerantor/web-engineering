@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+/* header */
+header .head{
+    display:flex;
+    width:100%;
+    height:120px;
+    background:#8d4e0f;
+}
+.first{
+    width:50%;
+    display:flex;
+    align-items:center;
+    color:white;
+}
+.second{
+    width:50%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:15px;
+    padding-right:30px;
+    color:white;
+}
+.sobi{
+    height:90px;
+    width:90px;
+    border-radius:50%;
+    margin-left:20px;
+}
+.blog{
+    margin-left:20px;
+}
+.logout a{
+    color:orange;
+    text-decoration:none;
+}
+/* menu */
+
+header .line{
+    height:40px;
+    background:#5b2f01;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.line-1 a{
+    color:white;
+    text-decoration:none;
+}
+/* carousal */
+#cei{
+    height:400px;
+}
+.carousel-item img{
+    height:400px;
+    object-fit:cover;
+}
+/* main part start */
+#tmain{
+    display:flex;
+    height:900px;
+}
+.mfirst{
+    width:65%;
+}
+.msecond{
+    width:35%;
+}
+.md11{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(35, 17, 238);
+}
+.md12{
+    padding: 20px;
+    background-color: rgb(227, 205, 8);
+}
+.md-1{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.md1img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.md21{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(229, 229, 187);
+}
+.md22{
+    padding: 20px;
+    background-color: rgb(141, 168, 203);
+}
+.md-2{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.md2img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.md31{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(224, 178, 14);
+}
+.md32{
+    padding: 20px;
+    background-color: rgb(200, 220, 184);
+}
+.md-3{
+    width: 100%;
+    display: flex;
+    height: 300px;
+}
+.md3img{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+/* main part end */
+/* main second part start*/
+.category{
+    padding: 20px;
+    height: 400px;
+    background-color: rgba(240, 152, 139, 0.988);
+}
+.article{
+    padding: 20px;
+    height: 500px;
+    background-color: rgb(219, 150, 228);
+}
+/* main second part end*/
+/* footer start */
+.social{
+    display: flex;
+    margin-bottom: 16px;
+}
+.foot{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(25, 30, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(227, 214, 214);
+}
+.copy{
+    margin-left: 10px;
+}
+/* footer end */
